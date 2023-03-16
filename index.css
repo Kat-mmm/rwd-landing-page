@@ -30,6 +30,7 @@ nav img{
     margin-top: 70px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
 }
 
@@ -81,4 +82,15 @@ nav img{
 
 .btn-links a:hover{
     cursor: pointer;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100vw;
 }
